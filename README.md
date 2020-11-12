@@ -1,4 +1,4 @@
-# ether-proxy
+# ether-proxy / Update for 2020 and beyond...
 
 Ethereum mining proxy with web-interface.
 
