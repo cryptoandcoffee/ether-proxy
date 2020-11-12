@@ -4,7 +4,7 @@ Ethereum mining proxy with web-interface.
 
 # Run with
 
-```docker run --restart unless-stopped -p 8546:8546 -p 8080:8080 -v ./config.json:/config.json -e CONFIG=/config.json babim/ether-proxy```
+```docker run --restart unless-stopped -p 8546:8546 -p 8080:8080 -v $(pwd)/config.json:/config.json -e CONFIG=/config.json babim/ether-proxy```
 
 # Use config file like
 -e CONFIG=/config.json to config file. Default: /opt/ether-proxy/ether-proxy/config.json
